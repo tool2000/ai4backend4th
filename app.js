@@ -13,7 +13,7 @@ const indexRouter = require('./routes/index.js')
 // const passportConfig = require('./passport')
 
 const app = express()
-passportConfig()
+// passportConfig()
 app.set('port', 3000)
 app.set('view engine', 'html')
 nunjucks.configure('views', {
